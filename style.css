@@ -1,0 +1,32 @@
+body{
+    font-family: 'Dancing Script', cursive;
+}
+h1{
+    font-size: 60px;
+}
+section{
+    height: 600px;
+    
+}
+.top-banner{  
+}
+span{
+    color: orange;
+}
+.half-width{
+    width: 40%;
+    margin-left: 2%;
+    padding: 4%;
+    float: left;
+}
+.half-width img{
+    width: 100%;
+}
+.orange-button{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-image: linear-gradient(180deg, orange, tomato);
+    color: wheat;
+}
