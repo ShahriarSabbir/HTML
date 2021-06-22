@@ -1,22 +1,29 @@
 body{
     font-family: 'Dancing Script', cursive;
+    margin: 0px;
 }
 h1{
     font-size: 60px;
 }
+h3{
+    color: orange;
+}
 section{
-    height: 600px;
+    height: 700px;
+    margin-bottom: 150px;
     
 }
-.top-banner{  
+.top-banner{ 
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
 }
 span{
     color: orange;
 }
 .half-width{
     width: 40%;
-    margin-left: 2%;
-    padding: 4%;
+    margin-left: 5%;
+    padding: 2%;
     float: left;
 }
 .half-width img{
@@ -29,4 +36,37 @@ span{
     border-radius: 5px;
     background-image: linear-gradient(180deg, orange, tomato);
     color: wheat;
+}
+.dream-area{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.exp-area{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.single-exp{
+    box-shadow: 10px 10px 40px gray;
+    background-color: ;
+    border-radius: 10px;
+    height: 50%;
+    width: 38%;
+    background-color: white;
+    text-align: center;
+}
+#full{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, orange, tomato);
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, cyan, blue );
+    border-image-slice: 1;
+}
+footer p{
+    color: gray;
+    text-align: center;
 }
